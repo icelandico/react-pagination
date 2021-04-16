@@ -1,14 +1,19 @@
-import React, { useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import './styles.css'
 
 interface IProps {
   allPagesNumber: number
   itemsPerPage: number
   itemsNumber: number
+  pageChange: (page: number) => void
 }
 
 const Pagination: React.FC<IProps> = (props) => {
   const [currentPage, setCurrentPage] = useState<number>(1);
+
+  useEffect(() => {
+    props.pageChange(currentPage)
+  }, [currentPage])
 
   const onFirstPage = (): void => {
     setCurrentPage(1);

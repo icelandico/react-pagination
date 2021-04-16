@@ -13,7 +13,7 @@ const DataList: React.FC<IProps> = ({ posts }) => {
         {
           posts.map((item: IPost) => {
             return (
-              <p>
+              <p key={item.id}>
                 { item.id } - { item.title }
               </p>
             )
