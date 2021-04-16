@@ -1,30 +1,17 @@
-import React, { useEffect, useState} from 'react';
+import React from 'react';
+import { IPost } from './../data.model'
 
-interface IPost {
-  userId: number
-  id: number
-  title: string
-  body: number
+interface IProps {
+  posts: IPost[]
 }
 
-const fetchData = async (url: string): Promise<IPost[]> => {
-  const response = await fetch(url);
-  return await response.json();
-}
-
-const DataList: React.FC = () => {
-  const [data, setData] = useState<IPost[]>([])
-
-  useEffect(() => {
-    const url = 'https://jsonplaceholder.typicode.com/posts';
-    fetchData(url).then(data => setData(data))
-  }, [])
+const DataList: React.FC<IProps> = ({ posts }) => {
 
   return (
     <div className="list__container">
       <div className="list_data">
         {
-          data.map(item => {
+          posts.map((item: IPost) => {
             return (
               <p>
                 { item.id } - { item.title }
