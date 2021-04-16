@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/angular-pagination/static/css/main.763a0b10.chunk.css",
+    "main.js": "/angular-pagination/static/js/main.6d3e6b6f.chunk.js",
+    "main.js.map": "/angular-pagination/static/js/main.6d3e6b6f.chunk.js.map",
+    "runtime-main.js": "/angular-pagination/static/js/runtime-main.4325a44c.js",
+    "runtime-main.js.map": "/angular-pagination/static/js/runtime-main.4325a44c.js.map",
+    "static/js/2.f538bf4f.chunk.js": "/angular-pagination/static/js/2.f538bf4f.chunk.js",
+    "static/js/2.f538bf4f.chunk.js.map": "/angular-pagination/static/js/2.f538bf4f.chunk.js.map",
+    "static/js/3.e683aaee.chunk.js": "/angular-pagination/static/js/3.e683aaee.chunk.js",
+    "static/js/3.e683aaee.chunk.js.map": "/angular-pagination/static/js/3.e683aaee.chunk.js.map",
+    "index.html": "/angular-pagination/index.html",
+    "static/css/main.763a0b10.chunk.css.map": "/angular-pagination/static/css/main.763a0b10.chunk.css.map",
+    "static/js/2.f538bf4f.chunk.js.LICENSE.txt": "/angular-pagination/static/js/2.f538bf4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4325a44c.js",
+    "static/js/2.f538bf4f.chunk.js",
+    "static/css/main.763a0b10.chunk.css",
+    "static/js/main.6d3e6b6f.chunk.js"
+  ]
+}
