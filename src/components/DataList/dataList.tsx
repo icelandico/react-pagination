@@ -7,7 +7,7 @@ interface IPost {
   body: number
 }
 
-const fetchData = async (url: string): Promise<any> => {
+const fetchData = async (url: string): Promise<IPost[]> => {
   const response = await fetch(url);
   return await response.json();
 }
