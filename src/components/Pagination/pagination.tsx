@@ -51,8 +51,12 @@ const Pagination: React.FC<IProps> = (props) => {
         Previous
       </div>
       <div className="pagination__page-active">
-        <input className="pagination__current-page" onChange={(e) => onSetPage(e.target.value)}
-               value={currentPage}/> / <span>{props.allPagesNumber}</span>
+        <input className="pagination__current-page" pattern="[0-9]"
+               onChange={(e) => onSetPage(e.target.value)}
+               value={currentPage}
+        />
+         /
+        <span>{props.allPagesNumber}</span>
       </div>
       <div
         className={`pagination__button pagination__page-next ${currentPage === props.allPagesNumber && 'pagination__button--disabled'}`}
