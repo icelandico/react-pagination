@@ -31,7 +31,7 @@ const App: React.FC = () => {
     <div className="main__container">
       <h1>Pagination</h1>
       <DataList posts={displayedData} />
-      <Pagination allPagesNumber={allPages} itemsPerPage={10} itemsNumber={data.length} pageChange={onPageChange}/>
+      <Pagination allPagesNumber={allPages} itemsPerPage={10} itemsNumber={data.length} pageChange={onPageChange} />
     </div>
   );
 }

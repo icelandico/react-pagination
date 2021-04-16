@@ -19,7 +19,6 @@ const DataList: React.FC<IProps> = ({ posts }) => {
             )
           })
         }
-
       </div>
     </div>
   )
