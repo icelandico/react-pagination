@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/angular-pagination/static/css/main.763a0b10.chunk.css",
-    "main.js": "/angular-pagination/static/js/main.6d3e6b6f.chunk.js",
-    "main.js.map": "/angular-pagination/static/js/main.6d3e6b6f.chunk.js.map",
-    "runtime-main.js": "/angular-pagination/static/js/runtime-main.4325a44c.js",
-    "runtime-main.js.map": "/angular-pagination/static/js/runtime-main.4325a44c.js.map",
-    "static/js/2.f538bf4f.chunk.js": "/angular-pagination/static/js/2.f538bf4f.chunk.js",
-    "static/js/2.f538bf4f.chunk.js.map": "/angular-pagination/static/js/2.f538bf4f.chunk.js.map",
-    "static/js/3.e683aaee.chunk.js": "/angular-pagination/static/js/3.e683aaee.chunk.js",
-    "static/js/3.e683aaee.chunk.js.map": "/angular-pagination/static/js/3.e683aaee.chunk.js.map",
-    "index.html": "/angular-pagination/index.html",
-    "static/css/main.763a0b10.chunk.css.map": "/angular-pagination/static/css/main.763a0b10.chunk.css.map",
-    "static/js/2.f538bf4f.chunk.js.LICENSE.txt": "/angular-pagination/static/js/2.f538bf4f.chunk.js.LICENSE.txt"
+    "main.css": "/react-pagination/static/css/main.763a0b10.chunk.css",
+    "main.js": "/react-pagination/static/js/main.6d3e6b6f.chunk.js",
+    "main.js.map": "/react-pagination/static/js/main.6d3e6b6f.chunk.js.map",
+    "runtime-main.js": "/react-pagination/static/js/runtime-main.ce794f95.js",
+    "runtime-main.js.map": "/react-pagination/static/js/runtime-main.ce794f95.js.map",
+    "static/js/2.f538bf4f.chunk.js": "/react-pagination/static/js/2.f538bf4f.chunk.js",
+    "static/js/2.f538bf4f.chunk.js.map": "/react-pagination/static/js/2.f538bf4f.chunk.js.map",
+    "static/js/3.e683aaee.chunk.js": "/react-pagination/static/js/3.e683aaee.chunk.js",
+    "static/js/3.e683aaee.chunk.js.map": "/react-pagination/static/js/3.e683aaee.chunk.js.map",
+    "index.html": "/react-pagination/index.html",
+    "static/css/main.763a0b10.chunk.css.map": "/react-pagination/static/css/main.763a0b10.chunk.css.map",
+    "static/js/2.f538bf4f.chunk.js.LICENSE.txt": "/react-pagination/static/js/2.f538bf4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4325a44c.js",
+    "static/js/runtime-main.ce794f95.js",
     "static/js/2.f538bf4f.chunk.js",
     "static/css/main.763a0b10.chunk.css",
     "static/js/main.6d3e6b6f.chunk.js"
