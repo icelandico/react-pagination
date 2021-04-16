@@ -36,6 +36,12 @@ const Pagination: React.FC<IProps> = (props) => {
     setCurrentPage(newPage);
   }
 
+  const validateInput = (value: string) => {
+    const regex = /^[0-9\b]+$/
+    const regexTest = regex.test(value)
+    regexTest && setCurrentPage(parseInt(value, 10))
+  }
+
   return (
     <div className="pagination__container">
       <div
@@ -51,8 +57,8 @@ const Pagination: React.FC<IProps> = (props) => {
         Previous
       </div>
       <div className="pagination__page-active">
-        <input className="pagination__current-page" pattern="[0-9]"
-               onChange={(e) => onSetPage(e.target.value)}
+        <input className="pagination__current-page"
+               onChange={(e) => validateInput(e.target.value)}
                value={currentPage}
         />
          /
