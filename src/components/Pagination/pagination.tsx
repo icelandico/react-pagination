@@ -31,11 +31,6 @@ const Pagination: React.FC<IProps> = (props) => {
     setCurrentPage(currentPage - 1);
   }
 
-  const onSetPage = (page: string): void => {
-    const newPage = parseInt(page, 10);
-    setCurrentPage(newPage);
-  }
-
   const validateInput = (value: string) => {
     const regex = /^[0-9\b]+$/
     const regexTest = regex.test(value)
